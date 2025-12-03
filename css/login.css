@@ -114,7 +114,6 @@
         transition: 0.3s;
     }
 
-
     button:hover {
         background: #440a6b;
     }
@@ -136,9 +135,6 @@
         }
     }
 
-a {
-    padding: 10px;
-    
 
-}
+
 

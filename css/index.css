@@ -11,13 +11,13 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        padding: 20px;
+        padding: 0px;
     }
 
     .card {
         background: #fff;
-        width: 900px;
-        height: 500px;
+        width: 80%;
+        height: 80%;
         border-radius: 10px;
         box-shadow: 0 4px 20px rgba(0,0,0,0.1);
         display: flex;
@@ -33,15 +33,15 @@
     }
 
     .circulo.esquerda {
-        width: 260px;
-        height: 260px;
+        width: 360px;
+        height: 360px;
         top: -80px;
         left: -80px;
     }
 
     .circulo.direita {
-        width: 260px;
-        height: 260px;
+        width: 360px;
+        height: 360px;
         bottom: -80px;
         right: -80px;
     }
@@ -76,6 +76,8 @@
         text-align: center;
         margin-bottom: 20px;
         color: #333;
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif ;
     }
 
     .input-group {
@@ -83,12 +85,13 @@
     }
 
     input {
+        
         width: 100%;
-        padding: 12px;
+        padding: 15px;
         border-radius: 8px;
         border: 1px solid #ccc;
         transition: 0.3s;
-        font-size: 15px;
+        font-size: 17px;
     }
 
     input:focus {
@@ -101,8 +104,8 @@
         background: #560b89;
         color: #fff;
         border: none;
-        padding: 12px 0;
-        width: 50%;
+        padding: 15px 0;
+        width: 52%;
         border-radius: 20px;
         cursor: pointer;
         font-size: 16px;
